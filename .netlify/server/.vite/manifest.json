@@ -1,0 +1,311 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js"
+    ]
+  },
+  "_600.js": {
+    "file": "_app/immutable/assets/600.CmBYj4i2.css",
+    "src": "_600.js"
+  },
+  "_Navbar.js": {
+    "file": "chunks/Navbar.js",
+    "name": "Navbar",
+    "imports": [
+      "_ssr.js",
+      "_stores.js"
+    ],
+    "css": [
+      "_app/immutable/assets/Navbar.C6HEI0U-.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/covered-by-your-grace-latin-400-normal.otpn24hA.woff2",
+      "_app/immutable/assets/covered-by-your-grace-latin-400-normal.BGObsN4g.woff"
+    ]
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports"
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js",
+    "name": "ssr"
+  },
+  "_stores.js": {
+    "file": "chunks/stores.js",
+    "name": "stores",
+    "imports": [
+      "_ssr.js",
+      "_exports.js"
+    ]
+  },
+  "node_modules/@fontsource-variable/orbitron/files/orbitron-latin-wght-normal.woff2": {
+    "file": "_app/immutable/assets/orbitron-latin-wght-normal.CIHN4Vk3.woff2",
+    "src": "node_modules/@fontsource-variable/orbitron/files/orbitron-latin-wght-normal.woff2"
+  },
+  "node_modules/@fontsource/covered-by-your-grace/files/covered-by-your-grace-latin-400-normal.woff": {
+    "file": "_app/immutable/assets/covered-by-your-grace-latin-400-normal.BGObsN4g.woff",
+    "src": "node_modules/@fontsource/covered-by-your-grace/files/covered-by-your-grace-latin-400-normal.woff"
+  },
+  "node_modules/@fontsource/covered-by-your-grace/files/covered-by-your-grace-latin-400-normal.woff2": {
+    "file": "_app/immutable/assets/covered-by-your-grace-latin-400-normal.otpn24hA.woff2",
+    "src": "node_modules/@fontsource/covered-by-your-grace/files/covered-by-your-grace-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-devanagari-300-normal.woff": {
+    "file": "_app/immutable/assets/poppins-devanagari-300-normal.5lGwaJpp.woff",
+    "src": "node_modules/@fontsource/poppins/files/poppins-devanagari-300-normal.woff"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-devanagari-300-normal.woff2": {
+    "file": "_app/immutable/assets/poppins-devanagari-300-normal.BtHqo3Vt.woff2",
+    "src": "node_modules/@fontsource/poppins/files/poppins-devanagari-300-normal.woff2"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-devanagari-400-normal.woff": {
+    "file": "_app/immutable/assets/poppins-devanagari-400-normal.C8-_4xxD.woff",
+    "src": "node_modules/@fontsource/poppins/files/poppins-devanagari-400-normal.woff"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-devanagari-400-normal.woff2": {
+    "file": "_app/immutable/assets/poppins-devanagari-400-normal.DXhQFdtL.woff2",
+    "src": "node_modules/@fontsource/poppins/files/poppins-devanagari-400-normal.woff2"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-devanagari-600-normal.woff": {
+    "file": "_app/immutable/assets/poppins-devanagari-600-normal.D_hkOiD3.woff",
+    "src": "node_modules/@fontsource/poppins/files/poppins-devanagari-600-normal.woff"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-devanagari-600-normal.woff2": {
+    "file": "_app/immutable/assets/poppins-devanagari-600-normal.B64POISR.woff2",
+    "src": "node_modules/@fontsource/poppins/files/poppins-devanagari-600-normal.woff2"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-300-normal.woff": {
+    "file": "_app/immutable/assets/poppins-latin-300-normal.BKnTHR6l.woff",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-300-normal.woff"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-300-normal.woff2": {
+    "file": "_app/immutable/assets/poppins-latin-300-normal.Dku2WoCh.woff2",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-300-normal.woff2"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-400-normal.woff": {
+    "file": "_app/immutable/assets/poppins-latin-400-normal.B_rUbtde.woff",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-400-normal.woff"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-400-normal.woff2": {
+    "file": "_app/immutable/assets/poppins-latin-400-normal.cpxAROuN.woff2",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-600-normal.woff": {
+    "file": "_app/immutable/assets/poppins-latin-600-normal.DYo_fp3E.woff",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-600-normal.woff"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-600-normal.woff2": {
+    "file": "_app/immutable/assets/poppins-latin-600-normal.zEkxB9Mr.woff2",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-600-normal.woff2"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-ext-300-normal.woff": {
+    "file": "_app/immutable/assets/poppins-latin-ext-300-normal.3W3h24Cu.woff",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-ext-300-normal.woff"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-ext-300-normal.woff2": {
+    "file": "_app/immutable/assets/poppins-latin-ext-300-normal.Dp0S20ci.woff2",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-ext-300-normal.woff2"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-ext-400-normal.woff": {
+    "file": "_app/immutable/assets/poppins-latin-ext-400-normal.DdMv8PPD.woff",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-ext-400-normal.woff"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/poppins-latin-ext-400-normal.CZnfsGfc.woff2",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff": {
+    "file": "_app/immutable/assets/poppins-latin-ext-600-normal.Bw2Y7KI9.woff",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": {
+    "file": "_app/immutable/assets/poppins-latin-ext-600-normal.CjZjQJk3.woff2",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_stores.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js",
+      "_exports.js",
+      "_ssr.js"
+    ]
+  },
+  "src/lib/images/astrojs.svg": {
+    "file": "_app/immutable/assets/astrojs.D761uuVz.svg",
+    "src": "src/lib/images/astrojs.svg"
+  },
+  "src/lib/images/bm-invest-website.webp": {
+    "file": "_app/immutable/assets/bm-invest-website.BdiIdUok.webp",
+    "src": "src/lib/images/bm-invest-website.webp"
+  },
+  "src/lib/images/carsbytes-website.webp": {
+    "file": "_app/immutable/assets/carsbytes-website.GbgCcZrG.webp",
+    "src": "src/lib/images/carsbytes-website.webp"
+  },
+  "src/lib/images/drizzle.png": {
+    "file": "_app/immutable/assets/drizzle.9gH0QvUo.png",
+    "src": "src/lib/images/drizzle.png"
+  },
+  "src/lib/images/fotonep-site.webp": {
+    "file": "_app/immutable/assets/fotonep-site.CXLLmKbU.webp",
+    "src": "src/lib/images/fotonep-site.webp"
+  },
+  "src/lib/images/inkscape-logo-1.svg": {
+    "file": "_app/immutable/assets/inkscape-logo-1.BAjZQSrU.svg",
+    "src": "src/lib/images/inkscape-logo-1.svg"
+  },
+  "src/lib/images/klikr-website.webp": {
+    "file": "_app/immutable/assets/klikr-website.B-0AI7Yh.webp",
+    "src": "src/lib/images/klikr-website.webp"
+  },
+  "src/lib/images/lucia.png": {
+    "file": "_app/immutable/assets/lucia.C1ieUPkC.png",
+    "src": "src/lib/images/lucia.png"
+  },
+  "src/lib/images/storyblok-logo.svg": {
+    "file": "_app/immutable/assets/storyblok-logo.CfYgWppH.svg",
+    "src": "src/lib/images/storyblok-logo.svg"
+  },
+  "src/lib/images/svelte-1.svg": {
+    "file": "_app/immutable/assets/svelte-1.DI4JToV3.svg",
+    "src": "src/lib/images/svelte-1.svg"
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_stores.js",
+      "_Navbar.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.XIWbLf33.css",
+      "_app/immutable/assets/600.CmBYj4i2.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/poppins-devanagari-300-normal.BtHqo3Vt.woff2",
+      "_app/immutable/assets/poppins-devanagari-300-normal.5lGwaJpp.woff",
+      "_app/immutable/assets/poppins-latin-ext-300-normal.Dp0S20ci.woff2",
+      "_app/immutable/assets/poppins-latin-ext-300-normal.3W3h24Cu.woff",
+      "_app/immutable/assets/poppins-latin-300-normal.Dku2WoCh.woff2",
+      "_app/immutable/assets/poppins-latin-300-normal.BKnTHR6l.woff",
+      "_app/immutable/assets/orbitron-latin-wght-normal.CIHN4Vk3.woff2",
+      "_app/immutable/assets/poppins-devanagari-400-normal.DXhQFdtL.woff2",
+      "_app/immutable/assets/poppins-devanagari-400-normal.C8-_4xxD.woff",
+      "_app/immutable/assets/poppins-latin-ext-400-normal.CZnfsGfc.woff2",
+      "_app/immutable/assets/poppins-latin-ext-400-normal.DdMv8PPD.woff",
+      "_app/immutable/assets/poppins-latin-400-normal.cpxAROuN.woff2",
+      "_app/immutable/assets/poppins-latin-400-normal.B_rUbtde.woff",
+      "_app/immutable/assets/poppins-devanagari-600-normal.B64POISR.woff2",
+      "_app/immutable/assets/poppins-devanagari-600-normal.D_hkOiD3.woff",
+      "_app/immutable/assets/poppins-latin-ext-600-normal.CjZjQJk3.woff2",
+      "_app/immutable/assets/poppins-latin-ext-600-normal.Bw2Y7KI9.woff",
+      "_app/immutable/assets/poppins-latin-600-normal.zEkxB9Mr.woff2",
+      "_app/immutable/assets/poppins-latin-600-normal.DYo_fp3E.woff"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Navbar.js"
+    ]
+  },
+  "src/routes/about/+page.svelte": {
+    "file": "entries/pages/about/_page.svelte.js",
+    "name": "entries/pages/about/_page.svelte",
+    "src": "src/routes/about/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ],
+    "css": [
+      "_app/immutable/assets/600.CmBYj4i2.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/poppins-devanagari-400-normal.DXhQFdtL.woff2",
+      "_app/immutable/assets/poppins-devanagari-400-normal.C8-_4xxD.woff",
+      "_app/immutable/assets/poppins-latin-ext-400-normal.CZnfsGfc.woff2",
+      "_app/immutable/assets/poppins-latin-ext-400-normal.DdMv8PPD.woff",
+      "_app/immutable/assets/poppins-latin-400-normal.cpxAROuN.woff2",
+      "_app/immutable/assets/poppins-latin-400-normal.B_rUbtde.woff",
+      "_app/immutable/assets/poppins-devanagari-600-normal.B64POISR.woff2",
+      "_app/immutable/assets/poppins-devanagari-600-normal.D_hkOiD3.woff",
+      "_app/immutable/assets/poppins-latin-ext-600-normal.CjZjQJk3.woff2",
+      "_app/immutable/assets/poppins-latin-ext-600-normal.Bw2Y7KI9.woff",
+      "_app/immutable/assets/poppins-latin-600-normal.zEkxB9Mr.woff2",
+      "_app/immutable/assets/poppins-latin-600-normal.DYo_fp3E.woff"
+    ]
+  },
+  "src/routes/contact/+page.svelte": {
+    "file": "entries/pages/contact/_page.svelte.js",
+    "name": "entries/pages/contact/_page.svelte",
+    "src": "src/routes/contact/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "src/routes/skills/+page.svelte": {
+    "file": "entries/pages/skills/_page.svelte.js",
+    "name": "entries/pages/skills/_page.svelte",
+    "src": "src/routes/skills/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ],
+    "assets": [
+      "_app/immutable/assets/svelte-1.DI4JToV3.svg",
+      "_app/immutable/assets/astrojs.D761uuVz.svg",
+      "_app/immutable/assets/drizzle.9gH0QvUo.png",
+      "_app/immutable/assets/inkscape-logo-1.BAjZQSrU.svg",
+      "_app/immutable/assets/lucia.C1ieUPkC.png",
+      "_app/immutable/assets/storyblok-logo.CfYgWppH.svg"
+    ]
+  },
+  "src/routes/work/+page.svelte": {
+    "file": "entries/pages/work/_page.svelte.js",
+    "name": "entries/pages/work/_page.svelte",
+    "src": "src/routes/work/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ],
+    "assets": [
+      "_app/immutable/assets/fotonep-site.CXLLmKbU.webp",
+      "_app/immutable/assets/bm-invest-website.BdiIdUok.webp",
+      "_app/immutable/assets/klikr-website.B-0AI7Yh.webp",
+      "_app/immutable/assets/carsbytes-website.GbgCcZrG.webp"
+    ]
+  }
+}
