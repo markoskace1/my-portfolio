@@ -3,16 +3,16 @@
 	import '@fontsource/poppins/600.css';
 </script>
 
-<section class="relative flex pb-24 max-w-5xl">
-	<div class="grid grid-cols-1 md:grid-cols-2">
+<section class="relative flex pb-24 md:max-w-5xl">
+	<div class="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-0">
 		<div
-			class="md:sticky md:top-0 mb-12 md:mb-0 h-fit text-yellow-300 font-hello text-[7rem] md:text-[10rem] leading-[1.15] font-extrabold"
+			class="md:sticky md:top-0 mb-12 md:mb-0 h-fit text-yellow-300 font-hello text-[7rem] md:text-[10rem] leading-[1.15] font-extrabold overflow-hidden"
 		>
 			Hi,<br /> I'm <br />Mitja
 		</div>
 
 		<div
-			class="prose prose-h1:text-slate-200 prose-h1:pb-2 prose-p:text-slate-300 prose-strong:text-slate-100 prose-strong:font-semibold prose-a:text-slate-300 max-w-none"
+			class="prose prose-sm md:prose-base prose-h1:text-slate-200 prose-h1:pb-2 prose-p:text-slate-300 prose-strong:text-slate-100 prose-strong:font-semibold prose-a:text-slate-300 max-w-none"
 		>
 			<h1 class="border-b border-yellow-300">Dear Tailwinders!</h1>
 			<p>
