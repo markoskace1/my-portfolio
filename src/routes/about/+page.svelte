@@ -4,9 +4,9 @@
 </script>
 
 <section class="relative flex pb-24 max-w-5xl">
-	<div class="grid grid-cols-2">
+	<div class="grid grid-cols-1 md:grid-cols-2">
 		<div
-			class="sticky top-0 h-fit text-yellow-300 font-hello text-[10rem] leading-[1.15] font-extrabold"
+			class="md:sticky md:top-0 mb-12 md:mb-0 h-fit text-yellow-300 font-hello text-[7rem] md:text-[10rem] leading-[1.15] font-extrabold"
 		>
 			Hi,<br /> I'm <br />Mitja
 		</div>

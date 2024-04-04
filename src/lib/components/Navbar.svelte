@@ -9,7 +9,7 @@
 <header class="flex items-center justify-center pt-12 pb-24">
 	<nav>
 		<ul
-			class="flex flex-col text-lg font-medium md:flex-row items-center justify-between space-x-2 md:space-x-8"
+			class="flex flex-col text-lg font-medium sm:flex-row items-center justify-between space-x-2 md:space-x-8"
 		>
 			<li
 				class="{$page.url.pathname === '/about'

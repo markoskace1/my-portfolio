@@ -3,9 +3,13 @@
 	import investWebsite from '$lib/images/bm-invest-website.webp';
 	import klikrWebsite from '$lib/images/klikr-website.webp';
 	import carsWebsite from '$lib/images/carsbytes-website.webp';
+	import presentationWebsite from '$lib/images/presentation-website.webp';
+	import moleculesWebsite from '$lib/images/molecules-website.webp';
+	import moviesWebsite from '$lib/images/movies-website.webp';
+	import doughnutWebsite from '$lib/images/doughnut-website.webp';
 </script>
 
-<section class="flex flex-col space-y-12 max-w-6xl">
+<section class="flex flex-col space-y-12 max-w-6xl pb-12">
 	<!-- REAL ESTATE WEBSITE -->
 
 	<div class="relative flex justify-center gap-3 items-center rounded-r-xl">
@@ -107,52 +111,99 @@
 		</div>
 	</div>
 
-	<div
-		class="flex flex-col max-w-none prose prose-h2:text-slate-100 prose-p:text-slate-200 prose-h3:text-slate-200 prose-a:text-slate-400 prose-a:w-fit py-24"
-	>
-		<h2>...and some other honorable mentions:</h2>
-
-		<div>
-			<h3>Presentation website:</h3>
+	<!-- PRESENTATION WEBSITE -->
+	<div class="relative flex justify-center gap-3 items-center rounded-r-xl">
+		<div
+			class="absolute w-full h-full -bottom-4 left-12 rounded-xl border-4 border-lime-300 -z-10"
+		></div>
+		<img
+			src={presentationWebsite}
+			alt="fotonepremicnine.si website"
+			width="480px"
+			height="235px"
+			class="object-cover object-center aspect-video rounded-xl"
+		/>
+		<div
+			class="flex flex-col prose max-w-none prose-h2:text-slate-200 prose-h2:tracking-wide prose-p:text-slate-300 prose-a:text-slate-400 prose-a:w-fit px-3 py-6"
+		>
+			<h2>Presentation website</h2>
 			<p>
 				A presentation made for a client from Upwork. It's made only for desktop screens and not for
-				smaller mobile screens. It's made in ReactJS and TailwindCSS. <a
-					href="https://slides-react.vercel.app/"
-					target="_blank">Visit the site</a
-				>
+				smaller mobile screens. It's made in ReactJS and TailwindCSS.
 			</p>
+			<a href="https://slides-react.vercel.app/" target="_blank">Visit the site</a>
 		</div>
+	</div>
 
-		<div>
-			<h3>Molecules database website:</h3>
+	<!-- MOLECULES WEBSITE -->
+	<div class="relative flex justify-center gap-3 items-center rounded-r-xl">
+		<div
+			class="absolute w-full h-full -bottom-4 right-12 rounded-xl border-4 border-lime-300 -z-10"
+		></div>
+		<img
+			src={moleculesWebsite}
+			alt="fotonepremicnine.si website"
+			width="480px"
+			height="235px"
+			class="object-cover object-left aspect-video rounded-xl order-2"
+		/>
+		<div
+			class="flex flex-col prose max-w-none prose-h2:text-slate-200 prose-h2:tracking-wide prose-p:text-slate-300 prose-a:text-slate-400 prose-a:w-fit px-3 py-6"
+		>
+			<h2>Molecules database</h2>
 			<p>
-				This was supposed to be made for a client, but I turned it down, because I didn't know if I
-				can build it. But I build it anyway, just for my sake. This a app that fetches a large
-				database of molecules and displays its information. It's made in ReactJS and TailwindCSS. <a
-					href="https://drug-molecules.vercel.app/"
-					target="_blank">Visit the site</a
-				>
+				An Upwork project I turned it down, because I didn't know if I could build it. But I build
+				it anyway. This is an app that fetches data from a large database of molecules and displays
+				its information. It's made in ReactJS and TailwindCSS.
 			</p>
+			<a href="https://drug-molecules.vercel.app" target="_blank">Visit the site</a>
 		</div>
+	</div>
 
-		<div>
-			<h3>Movies website:</h3>
+	<!-- MOVIES WEBSITE -->
+	<div class="relative flex justify-center gap-3 items-center rounded-r-xl">
+		<div
+			class="absolute w-full h-full -bottom-4 left-12 rounded-xl border-4 border-lime-300 -z-10"
+		></div>
+		<img
+			src={moviesWebsite}
+			alt="fotonepremicnine.si website"
+			width="480px"
+			height="235px"
+			class="object-cover object-center aspect-video rounded-xl border"
+		/>
+		<div
+			class="flex flex-col prose max-w-none prose-h2:text-slate-200 prose-h2:tracking-wide prose-p:text-slate-300 prose-a:text-slate-400 prose-a:w-fit px-3 py-6"
+		>
+			<h2>Movies database</h2>
 			<p>
-				Web app that fetches the movies from database. Made in Svelte and TailwindCSS. <a
-					href="https://movies-app-markoskace1.vercel.app/"
-					target="_blank">Visit the site</a
-				>
+				Web app I made a while ago that fetches the movies from a database. Made in Svelte and
+				TailwindCSS.
 			</p>
+			<a href="https://movies-app-markoskace1.vercel.app" target="_blank">Visit the site</a>
 		</div>
+	</div>
 
-		<div>
-			<h3>Doughnuts website:</h3>
+	<!-- DOUGHNUTS WEBSITE -->
+	<div class="relative flex justify-center gap-3 items-center rounded-r-xl">
+		<div
+			class="absolute w-full h-full -bottom-4 right-12 rounded-xl border-4 border-lime-300 -z-10"
+		></div>
+		<img
+			src={doughnutWebsite}
+			alt="fotonepremicnine.si website"
+			width="480px"
+			height="235px"
+			class="object-cover object-left aspect-video rounded-xl order-2"
+		/>
+		<div
+			class="flex flex-col prose max-w-none prose-h2:text-slate-200 prose-h2:tracking-wide prose-p:text-slate-300 prose-a:text-slate-400 prose-a:w-fit px-3 py-6"
+		>
+			<h2>Doughnuts website</h2>
 			<p>
-				I've found the design on Figma and really liked it. It' made in ReactJS and TailwindCSS. <a
-					href="https://markoskace1.github.io/doughnuts-react/"
-					target="_blank">Visit the site</a
-				>
+				I've found the design on Figma and really liked it. It' made in ReactJS and TailwindCSS.
 			</p>
+			<a href="https://markoskace1.github.io/doughnuts-react" target="_blank">Visit the site</a>
 		</div>
 	</div>
 </section>
