@@ -31,13 +31,13 @@
 	];
 </script>
 
-<section class="flex flex-col items-center container mx-auto max-w-5xl">
+<section class="flex flex-col items-center container mx-auto w-full md:max-w-5xl">
 	<div class="flex flex-col items-center gap-5 mx-auto mb-6">
 		{#each skills as skill}
 			<div
-				class="flex justify-between items-center space-x-10 w-full prose prose-headings:m-0 prose-headings:text-slate-300 prose-img:m-0"
+				class="flex flex-col md:flex-row justify-between items-center space-x-2 md:space-x-10 prose prose-sm md:prose-base prose-headings:m-0 prose-headings:text-slate-300 prose-img:m-0"
 			>
-				<div class="flex justify-end items-center space-x-3 w-60">
+				<div class="flex justify-start md:justify-end items-center space-x-3 w-60">
 					<h2>{skill.name}</h2>
 					<!-- <img src={skill.image} alt={skill.alt} width="36px" height="36px" /> -->
 				</div>
@@ -47,16 +47,16 @@
 				</div>
 			</div>
 		{/each}
-		<div class="flex items-center space-x-2 text-slate-400">
+		<div class="flex items-center space-x-2 text-slate-400 py-2">
 			<Info size={16} />
-			<p>Accuracy is &#177 0.4 stars</p>
+			<p class="text-sm md:text-base">Accuracy is &#177 0.4 stars</p>
 		</div>
 	</div>
 
-	<div class="mb-6 prose max-w-none prose-p:text-slate-300">
+	<div class="mb-6 prose prose-sm md:prose-base max-w-none prose-p:text-slate-300">
 		<p>
 			You'll notice there are no 5 stars and no 1 star skill. Well, I can't know everything and I
-			know enaugh to not know anything.<br /> That's philosphical, right?
+			know enaugh to not know anything. &#129299
 		</p>
 	</div>
 

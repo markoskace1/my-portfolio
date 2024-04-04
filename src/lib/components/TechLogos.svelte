@@ -100,7 +100,7 @@
 	];
 </script>
 
-<div class="grid grid-cols-5">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 justify-items-center">
 	{#each logos as logo}
 		<div
 			class="relative group flex flex-col items-center justify-evenly hover:bg-cyan-300/10 w-52 h-52 prose prose-img:m-0 tranisition duration-300 ease-in-out"
