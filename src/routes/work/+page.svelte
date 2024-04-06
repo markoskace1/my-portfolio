@@ -14,20 +14,20 @@
 >
 	<!-- REAL ESTATE WEBSITE -->
 
-	<div
-		class="relative flex flex-col lg:flex-row justify-center items-center lg:items-start gap-0 lg:gap-3 rounded-r-xl"
-	>
-		<div
-			class="absolute w-2/3 lg:w-full h-1/2 lg:h-full top-0 lg:-bottom-4 left-12 lg:left-24 rounded-xl border-4 border-lime-300 -z-10"
-		></div>
-		<img
-			src={fotnepWebsite}
-			alt="fotonepremicnine.si website"
-			width="480px"
-			height="235px"
-			class="object-cover object-center aspect-video rounded-xl"
-		/>
-		<div class="flex flex-col px-3">
+	<div class=" flex flex-col lg:flex-row justify-center items-center lg:items-start gap-0 lg:gap-3">
+		<div class="relative lg:w-1/2">
+			<img
+				src={fotnepWebsite}
+				alt="fotonepremicnine.si website"
+				width="480px"
+				height="235px"
+				class="object-cover object-center aspect-video rounded-xl"
+			/>
+			<div
+				class="absolute w-3/4 h-3/4 lg:h-full top-0 -right-8 lg:right-0 rounded-xl border-4 border-lime-300 -z-10"
+			></div>
+		</div>
+		<div class="flex flex-col px-3 lg:w-1/2">
 			<h2>Real estate photography website</h2>
 			<p>
 				I've build this website for my photography business, but I'm planning to shut it down as
@@ -39,20 +39,20 @@
 	</div>
 
 	<!-- BM INVEST WEBSITE -->
-	<div
-		class="relative flex flex-col lg:flex-row justify-center items-center lg:items-start gap-0 lg:gap-3 rounded-r-xl"
-	>
-		<div
-			class="absolute w-2/3 lg:w-full h-1/2 lg:h-full top-0 lg:-bottom-4 right-12 lg:right-24 rounded-xl border-4 border-lime-300 -z-10"
-		></div>
-		<img
-			src={investWebsite}
-			alt="fotonepremicnine.si website"
-			width="480px"
-			height="235px"
-			class="object-cover object-center aspect-video rounded-xl lg:order-2"
-		/>
-		<div class="flex flex-col px-3">
+	<div class="flex flex-col lg:flex-row justify-between items-center lg:items-start gap-0 lg:gap-3">
+		<div class="relative lg:w-1/2 lg:order-2 lg:px-6">
+			<img
+				src={investWebsite}
+				alt="fotonepremicnine.si website"
+				width="480px"
+				height="235px"
+				class="object-cover object-center aspect-video rounded-xl"
+			/>
+			<div
+				class="absolute w-3/4 h-3/4 lg:h-full top-0 -left-8 lg:left-0 rounded-xl border-4 border-lime-300 -z-10"
+			></div>
+		</div>
+		<div class="flex flex-col px-3 lg:w-1/2">
 			<h2>Authentication app</h2>
 			<p>
 				I'm still building this portal for my friends and family to check their portfolios. The
@@ -66,19 +66,21 @@
 
 	<!-- KLIKR WEBSITE -->
 	<div
-		class="relative flex flex-col lg:flex-row justify-center items-center lg:items-start gap-0 lg:gap-3 rounded-r-xl"
+		class="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-0 lg:gap-3 rounded-r-xl"
 	>
-		<div
-			class="absolute w-2/3 lg:w-full h-1/2 lg:h-full top-0 lg:-bottom-4 left-12 lg:left-24 rounded-xl border-4 border-lime-300 -z-10"
-		></div>
-		<img
-			src={klikrWebsite}
-			alt="fotonepremicnine.si website"
-			width="480px"
-			height="235px"
-			class="object-cover object-center aspect-video rounded-xl"
-		/>
-		<div class="flex flex-col px-3">
+		<div class="relative lg:w-1/2">
+			<img
+				src={klikrWebsite}
+				alt="fotonepremicnine.si website"
+				width="480px"
+				height="235px"
+				class="object-cover object-center aspect-video rounded-xl"
+			/>
+			<div
+				class="absolute w-3/4 h-3/4 lg:h-full top-0 -right-8 lg:right-0 rounded-xl border-4 border-lime-300 -z-10"
+			></div>
+		</div>
+		<div class="flex flex-col px-3 lg:w-1/2">
 			<h2>Web development business</h2>
 			<p>
 				Another project in the making. I'm still working on it. It's a website for my business
@@ -91,19 +93,21 @@
 
 	<!-- CAR&BYTES WEBSITE -->
 	<div
-		class="relative flex flex-col lg:flex-row justify-center items-center lg:items-start gap-0 lg:gap-3 rounded-r-xl"
+		class="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-0 lg:gap-3 rounded-r-xl"
 	>
-		<div
-			class="absolute w-2/3 lg:w-full h-1/2 lg:h-full top-0 lg:-bottom-4 right-12 lg:right-24 rounded-xl border-4 border-lime-300 -z-10"
-		></div>
-		<img
-			src={carsWebsite}
-			alt="fotonepremicnine.si website"
-			width="480px"
-			height="235px"
-			class="object-cover object-center aspect-video rounded-xl lg:order-2"
-		/>
-		<div class="flex flex-col px-3">
+		<div class="relative lg:w-1/2 lg:order-2 lg:px-6">
+			<img
+				src={carsWebsite}
+				alt="fotonepremicnine.si website"
+				width="480px"
+				height="235px"
+				class="object-cover object-center aspect-video rounded-xl"
+			/>
+			<div
+				class="absolute w-3/4 h-3/4 lg:h-full top-0 -left-8 lg:left-0 rounded-xl border-4 border-lime-300 -z-10"
+			></div>
+		</div>
+		<div class="flex flex-col px-3 lg:w-1/2">
 			<h2>Cars exhibition website</h2>
 			<p>
 				This was made for my client from Upwork. I had to build 4 pages for desktop screens only, so
@@ -115,19 +119,21 @@
 
 	<!-- PRESENTATION WEBSITE -->
 	<div
-		class="relative flex flex-col lg:flex-row justify-center items-center lg:items-start gap-0 lg:gap-3 rounded-r-xl"
+		class=" flex flex-col lg:flex-row justify-center items-center lg:items-start gap-0 lg:gap-3 rounded-r-xl"
 	>
-		<div
-			class="absolute w-2/3 lg:w-full h-1/2 lg:h-full top-0 lg:-bottom-4 left-12 lg:left-24 rounded-xl border-4 border-lime-300 -z-10"
-		></div>
-		<img
-			src={presentationWebsite}
-			alt="fotonepremicnine.si website"
-			width="480px"
-			height="235px"
-			class="object-cover object-center aspect-video rounded-xl"
-		/>
-		<div class="flex flex-col px-3">
+		<div class="relative lg:w-1/2">
+			<img
+				src={presentationWebsite}
+				alt="fotonepremicnine.si website"
+				width="480px"
+				height="235px"
+				class="object-cover object-center aspect-video rounded-xl"
+			/>
+			<div
+				class="absolute w-3/4 h-3/4 lg:h-full top-0 -right-8 lg:right-0 rounded-xl border-4 border-lime-300 -z-10"
+			></div>
+		</div>
+		<div class="flex flex-col px-3 lg:w-1/2">
 			<h2>Presentation website</h2>
 			<p>
 				A presentation made for a client from Upwork. It's made only for desktop screens and not for
@@ -139,19 +145,21 @@
 
 	<!-- MOLECULES WEBSITE -->
 	<div
-		class="relative flex flex-col lg:flex-row justify-center items-center lg:items-start gap-0 lg:gap-3 rounded-r-xl"
+		class="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-0 lg:gap-3 rounded-r-xl"
 	>
-		<div
-			class="absolute w-2/3 lg:w-full h-1/2 lg:h-full top-0 lg:-bottom-4 right-12 lg:right-24 rounded-xl border-4 border-lime-300 -z-10"
-		></div>
-		<img
-			src={moleculesWebsite}
-			alt="fotonepremicnine.si website"
-			width="480px"
-			height="235px"
-			class="object-cover object-left aspect-video rounded-xl lg:order-2"
-		/>
-		<div class="flex flex-col px-3">
+		<div class="relative lg:w-1/2 lg:order-2 lg:px-6">
+			<img
+				src={moleculesWebsite}
+				alt="fotonepremicnine.si website"
+				width="480px"
+				height="235px"
+				class="object-cover object-left aspect-video rounded-xl"
+			/>
+			<div
+				class="absolute w-3/4 h-3/4 lg:h-full top-0 -left-8 lg:left-0 rounded-xl border-4 border-lime-300 -z-10"
+			></div>
+		</div>
+		<div class="flex flex-col px-3 lg:w-1/2">
 			<h2>Molecules database</h2>
 			<p>
 				An Upwork project I turned it down, because I didn't know if I could build it. But I build
@@ -164,19 +172,21 @@
 
 	<!-- MOVIES WEBSITE -->
 	<div
-		class="relative flex flex-col lg:flex-row justify-center items-center lg:items-start gap-0 lg:gap-3 rounded-r-xl"
+		class="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-0 lg:gap-3 rounded-r-xl"
 	>
-		<div
-			class="absolute w-2/3 lg:w-full h-1/2 lg:h-full top-0 lg:-bottom-4 left-12 lg:left-24 rounded-xl border-4 border-lime-300 -z-10"
-		></div>
-		<img
-			src={moviesWebsite}
-			alt="fotonepremicnine.si website"
-			width="480px"
-			height="235px"
-			class="object-cover object-center aspect-video rounded-xl border"
-		/>
-		<div class="flex flex-col px-3">
+		<div class="relative lg:w-1/2">
+			<img
+				src={moviesWebsite}
+				alt="fotonepremicnine.si website"
+				width="480px"
+				height="235px"
+				class="object-cover object-center aspect-video rounded-xl border"
+			/>
+			<div
+				class="absolute w-3/4 h-3/4 lg:h-full top-0 -right-8 lg:right-0 rounded-xl border-4 border-lime-300 -z-10"
+			></div>
+		</div>
+		<div class="flex flex-col px-3 lg:w-1/2">
 			<h2>Movies database</h2>
 			<p>
 				Web app I made a while ago that fetches the movies from a database. Made in Svelte and
@@ -188,19 +198,21 @@
 
 	<!-- DOUGHNUTS WEBSITE -->
 	<div
-		class="relative flex flex-col lg:flex-row justify-center items-center lg:items-start gap-0 lg:gap-3 rounded-r-xl"
+		class="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-0 lg:gap-3 rounded-r-xl"
 	>
-		<div
-			class="absolute w-2/3 lg:w-full h-1/2 lg:h-full top-0 lg:-bottom-4 right-12 lg:right-24 rounded-xl border-4 border-lime-300 -z-10"
-		></div>
-		<img
-			src={doughnutWebsite}
-			alt="fotonepremicnine.si website"
-			width="480px"
-			height="235px"
-			class="object-cover object-left aspect-video rounded-xl lg:order-2"
-		/>
-		<div class="flex flex-col px-3">
+		<div class="relative lg:w-1/2 lg:order-2 lg:px-6">
+			<img
+				src={doughnutWebsite}
+				alt="fotonepremicnine.si website"
+				width="480px"
+				height="235px"
+				class="object-cover object-left aspect-video rounded-xl"
+			/>
+			<div
+				class="absolute w-3/4 h-3/4 lg:h-full top-0 -left-8 lg:left-0 rounded-xl border-4 border-lime-300 -z-10"
+			></div>
+		</div>
+		<div class="flex flex-col px-3 lg:w-1/2">
 			<h2>Doughnuts website</h2>
 			<p>
 				I've found the design on Figma and really liked it. It' made in ReactJS and TailwindCSS.

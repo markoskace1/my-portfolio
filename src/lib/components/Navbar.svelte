@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import '@fontsource/covered-by-your-grace';
-	import { AlignJustifyIcon } from 'lucide-svelte';
 </script>
 
 <header class="flex items-center justify-center pt-10 pb-12 md:pt-12 md:pb-24 w-full">

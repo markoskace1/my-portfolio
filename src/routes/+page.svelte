@@ -4,14 +4,10 @@
 	import { onMount } from 'svelte';
 	import { slide } from 'svelte/transition';
 
-	let firstLoad: boolean = false;
 	let supportsViewTransitions: boolean = false;
 	let showBrowserCheck: boolean = false;
 
 	onMount(() => {
-		firstLoad = true;
-
-		// @ts-ignore
 		if (document && 'startViewTransition' in document) {
 			supportsViewTransitions = true;
 		} else {
