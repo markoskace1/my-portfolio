@@ -110,7 +110,7 @@
 				alt={logo.alt}
 				width="96px"
 				height="96px"
-				class="group-hover:scale-125 opacity-10 group-hover:opacity-100 transition duration-300 ease-in-out aspect-square"
+				class="group-hover:scale-125 opacity-30 group-hover:opacity-100 transition duration-300 ease-in-out aspect-square"
 			/>
 			<span
 				class="absolute group-hover:translate-y-20 uppercase text-slate-300 group-hover:tracking-widest font-semibold text-lg group-hover:block transition-all duration-300 ease-in-out"
