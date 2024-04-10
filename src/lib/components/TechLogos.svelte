@@ -14,8 +14,9 @@
 	import tursoLogo from '$lib/images/turso.svg';
 	import vercelLogo from '$lib/images/vercel.svg';
 	import wordpressLogo from '$lib/images/wordpress-icon-1.svg';
+	import gsapLogo from '$lib/images/gsap-greensock.svg';
+	import framerMotionLogo from '$lib/images/framer-motion.svg';
 	import { onMount } from 'svelte';
-	import { fly, slide } from 'svelte/transition';
 
 	type Logo = {
 		name: string;
@@ -73,6 +74,16 @@
 			name: 'Prisma',
 			imgUrl: prismaLogo,
 			alt: 'Prisma logo'
+		},
+		{
+			name: 'GSAP',
+			imgUrl: gsapLogo,
+			alt: 'GSAP logo'
+		},
+		{
+			name: 'Framer Motion',
+			imgUrl: framerMotionLogo,
+			alt: 'Framer Motion logo'
 		},
 		{
 			name: 'Storyblok',
