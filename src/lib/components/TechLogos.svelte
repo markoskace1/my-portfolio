@@ -16,6 +16,7 @@
 	import wordpressLogo from '$lib/images/wordpress-icon-1.svg';
 	import gsapLogo from '$lib/images/gsap-greensock.svg';
 	import framerMotionLogo from '$lib/images/framer-motion.svg';
+	import motionOneLogo from '$lib/images/motion-one.svg';
 	import { onMount } from 'svelte';
 
 	type Logo = {
@@ -84,6 +85,11 @@
 			name: 'Framer Motion',
 			imgUrl: framerMotionLogo,
 			alt: 'Framer Motion logo'
+		},
+		{
+			name: 'Motion One',
+			imgUrl: motionOneLogo,
+			alt: 'Motion One logo'
 		},
 		{
 			name: 'Storyblok',
