@@ -7,6 +7,87 @@
 	import moleculesWebsite from '$lib/images/molecules-website.webp';
 	import moviesWebsite from '$lib/images/movies-website.webp';
 	import doughnutWebsite from '$lib/images/doughnut-website.webp';
+	import { gsap } from 'gsap';
+	import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+	import { onMount } from 'svelte';
+	import { fade } from 'svelte/transition';
+
+	let element1: HTMLElement;
+	let element2: HTMLElement;
+	let element3: HTMLElement;
+	let element4: HTMLElement;
+	let element5: HTMLElement;
+	let element6: HTMLElement;
+	let element7: HTMLElement;
+	let element8: HTMLElement;
+
+	onMount(() => {
+		gsap.registerPlugin(ScrollTrigger);
+
+		gsap.from(element1, {
+			scrollTrigger: {
+				trigger: element1
+			},
+			x: -100,
+			duration: 0.5
+		});
+
+		gsap.from(element2, {
+			scrollTrigger: {
+				trigger: element2
+			},
+			x: 100,
+			duration: 0.5
+		});
+
+		gsap.from(element3, {
+			scrollTrigger: {
+				trigger: element3
+			},
+			x: -100,
+			duration: 0.5
+		});
+
+		gsap.from(element4, {
+			scrollTrigger: {
+				trigger: element4
+			},
+			x: 100,
+			duration: 0.5
+		});
+
+		gsap.from(element5, {
+			scrollTrigger: {
+				trigger: element5
+			},
+			x: -100,
+			duration: 0.5
+		});
+
+		gsap.from(element6, {
+			scrollTrigger: {
+				trigger: element6
+			},
+			x: 100,
+			duration: 0.5
+		});
+
+		gsap.from(element7, {
+			scrollTrigger: {
+				trigger: element7
+			},
+			x: -100,
+			duration: 0.5
+		});
+
+		gsap.from(element8, {
+			scrollTrigger: {
+				trigger: element8
+			},
+			x: 100,
+			duration: 0.5
+		});
+	});
 </script>
 
 <section
@@ -14,9 +95,10 @@
 >
 	<!-- REAL ESTATE WEBSITE -->
 
-	<div class=" flex flex-col lg:flex-row justify-center items-center lg:items-start gap-0 lg:gap-3">
+	<div class="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-0 lg:gap-3">
 		<div class="relative lg:w-1/2">
 			<img
+				bind:this={element1}
 				src={fotnepWebsite}
 				alt="fotonepremicnine.si website"
 				width="480px"
@@ -39,11 +121,13 @@
 	</div>
 
 	<!-- BM INVEST WEBSITE -->
+
 	<div class="flex flex-col lg:flex-row justify-between items-center lg:items-start gap-0 lg:gap-3">
 		<div class="relative lg:w-1/2 lg:order-2 lg:px-6">
 			<img
+				bind:this={element2}
 				src={investWebsite}
-				alt="fotonepremicnine.si website"
+				alt="bm-invest website"
 				width="480px"
 				height="235px"
 				class="object-cover object-center aspect-video rounded-xl"
@@ -68,10 +152,11 @@
 	<div
 		class="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-0 lg:gap-3 rounded-r-xl"
 	>
-		<div class="relative lg:w-1/2">
+		<div class=" relative lg:w-1/2">
 			<img
+				bind:this={element3}
 				src={klikrWebsite}
-				alt="fotonepremicnine.si website"
+				alt="klikr website"
 				width="480px"
 				height="235px"
 				class="object-cover object-center aspect-video rounded-xl"
@@ -80,6 +165,7 @@
 				class="absolute w-3/4 h-3/4 lg:h-full top-0 -right-8 lg:right-0 rounded-xl border-4 border-lime-300 -z-10"
 			></div>
 		</div>
+
 		<div class="flex flex-col px-3 lg:w-1/2">
 			<h2>Web development business</h2>
 			<p>
@@ -95,10 +181,11 @@
 	<div
 		class="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-0 lg:gap-3 rounded-r-xl"
 	>
-		<div class="relative lg:w-1/2 lg:order-2 lg:px-6">
+		<div class=" relative lg:w-1/2 lg:order-2 lg:px-6">
 			<img
+				bind:this={element4}
 				src={carsWebsite}
-				alt="fotonepremicnine.si website"
+				alt="cars&bytes website"
 				width="480px"
 				height="235px"
 				class="object-cover object-center aspect-video rounded-xl"
@@ -123,8 +210,9 @@
 	>
 		<div class="relative lg:w-1/2">
 			<img
+				bind:this={element5}
 				src={presentationWebsite}
-				alt="fotonepremicnine.si website"
+				alt="presentation website"
 				width="480px"
 				height="235px"
 				class="object-cover object-center aspect-video rounded-xl"
@@ -149,8 +237,9 @@
 	>
 		<div class="relative lg:w-1/2 lg:order-2 lg:px-6">
 			<img
+				bind:this={element6}
 				src={moleculesWebsite}
-				alt="fotonepremicnine.si website"
+				alt="molecules website"
 				width="480px"
 				height="235px"
 				class="object-cover object-left aspect-video rounded-xl"
@@ -176,11 +265,12 @@
 	>
 		<div class="relative lg:w-1/2">
 			<img
+				bind:this={element7}
 				src={moviesWebsite}
-				alt="fotonepremicnine.si website"
+				alt="movies database website"
 				width="480px"
 				height="235px"
-				class="object-cover object-center aspect-video rounded-xl border"
+				class="object-cover object-center aspect-video rounded-xl border border-yellow-400"
 			/>
 			<div
 				class="absolute w-3/4 h-3/4 lg:h-full top-0 -right-8 lg:right-0 rounded-xl border-4 border-lime-300 -z-10"
@@ -202,8 +292,9 @@
 	>
 		<div class="relative lg:w-1/2 lg:order-2 lg:px-6">
 			<img
+				bind:this={element8}
 				src={doughnutWebsite}
-				alt="fotonepremicnine.si website"
+				alt="doughnuts website"
 				width="480px"
 				height="235px"
 				class="object-cover object-left aspect-video rounded-xl"

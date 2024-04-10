@@ -14,6 +14,8 @@
 	import tursoLogo from '$lib/images/turso.svg';
 	import vercelLogo from '$lib/images/vercel.svg';
 	import wordpressLogo from '$lib/images/wordpress-icon-1.svg';
+	import { onMount } from 'svelte';
+	import { fly, slide } from 'svelte/transition';
 
 	type Logo = {
 		name: string;
@@ -98,12 +100,21 @@
 			alt: 'Wordpress logo'
 		}
 	];
+
+	let index = 0;
+
+	onMount(() => {
+		const interval = setInterval(() => {
+			index = (index + 1) % logos.length;
+		}, 3000);
+		return () => clearInterval(interval);
+	});
 </script>
 
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 justify-items-center">
 	{#each logos as logo}
 		<div
-			class="relative group flex flex-col items-center justify-evenly hover:bg-cyan-300/10 w-52 h-52 prose prose-img:m-0 tranisition duration-300 ease-in-out"
+			class="relative group flex items-center justify-evenly hover:bg-cyan-300/10 w-52 h-52 prose prose-img:m-0 tranisition duration-300 ease-in-out"
 		>
 			<img
 				src={logo.imgUrl}
