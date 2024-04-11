@@ -10,7 +10,6 @@
 	import { gsap } from 'gsap';
 	import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 	import { onMount } from 'svelte';
-	import { fade } from 'svelte/transition';
 
 	let element1: HTMLElement;
 	let element2: HTMLElement;
@@ -23,69 +22,91 @@
 
 	onMount(() => {
 		gsap.registerPlugin(ScrollTrigger);
-
 		gsap.from(element1, {
 			scrollTrigger: {
-				trigger: element1
+				trigger: element1,
+				start: 'top bottom'
 			},
 			x: -100,
-			duration: 0.5
+			opacity: 0,
+			duration: 0.5,
+			ease: 'power3.out'
 		});
-
 		gsap.from(element2, {
 			scrollTrigger: {
-				trigger: element2
+				trigger: element2,
+				start: 'top bottom'
 			},
 			x: 100,
-			duration: 0.5
+			opacity: 0,
+			duration: 0.5,
+			ease: 'power3.out'
 		});
-
 		gsap.from(element3, {
 			scrollTrigger: {
-				trigger: element3
+				trigger: element3,
+				start: 'top bottom'
 			},
 			x: -100,
-			duration: 0.5
+			opacity: 0,
+			duration: 0.5,
+			delay: 0.1,
+			ease: 'power3.out'
 		});
-
 		gsap.from(element4, {
 			scrollTrigger: {
-				trigger: element4
+				trigger: element4,
+				start: 'top bottom'
 			},
 			x: 100,
-			duration: 0.5
+			opacity: 0,
+			duration: 0.5,
+			delay: 0.1,
+			ease: 'power3.out'
 		});
-
 		gsap.from(element5, {
 			scrollTrigger: {
-				trigger: element5
+				trigger: element5,
+				start: 'top bottom'
 			},
 			x: -100,
-			duration: 0.5
+			opacity: 0,
+			duration: 0.5,
+			delay: 0.1,
+			ease: 'power3.out'
 		});
-
 		gsap.from(element6, {
 			scrollTrigger: {
-				trigger: element6
+				trigger: element6,
+				start: 'top bottom'
 			},
 			x: 100,
-			duration: 0.5
+			opacity: 0,
+			duration: 0.5,
+			delay: 0.1,
+			ease: 'power3.out'
 		});
-
 		gsap.from(element7, {
 			scrollTrigger: {
-				trigger: element7
+				trigger: element7,
+				start: 'top bottom'
 			},
 			x: -100,
-			duration: 0.5
+			opacity: 0,
+			duration: 0.5,
+			delay: 0.1,
+			ease: 'power3.out'
 		});
-
 		gsap.from(element8, {
 			scrollTrigger: {
-				trigger: element8
+				trigger: element8,
+				start: 'top bottom'
 			},
 			x: 100,
-			duration: 0.5
+			opacity: 0,
+			duration: 0.5,
+			delay: 0.1,
+			ease: 'power3.out'
 		});
 	});
 </script>
@@ -181,7 +202,7 @@
 	<div
 		class="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-0 lg:gap-3 rounded-r-xl"
 	>
-		<div class=" relative lg:w-1/2 lg:order-2 lg:px-6">
+		<div class="relative lg:w-1/2 lg:order-2 lg:px-6">
 			<img
 				bind:this={element4}
 				src={carsWebsite}
