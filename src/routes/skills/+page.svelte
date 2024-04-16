@@ -31,7 +31,7 @@
 	];
 </script>
 
-<section class="flex flex-col items-center container mx-auto w-full md:max-w-5xl">
+<section class="flex flex-col items-center container mx-auto w-full md:max-w-5xl pb-24">
 	<div class="flex flex-col items-center gap-5 mx-auto mb-6">
 		{#each skills as skill}
 			<div
@@ -64,7 +64,7 @@
 		class="flex flex-col max-w-none justify-center items-center py-12 prose prose-h2:text-slate-100 prose-h2:pt-12 prose-h2:pb-2"
 	>
 		<h2 class="border-b border-cyan-300">Other technologies I have experience with:</h2>
-		<div class="container mx-auto">
+		<div class="container mt-6">
 			<TechLogos />
 		</div>
 	</div>

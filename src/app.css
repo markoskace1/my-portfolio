@@ -4,6 +4,6 @@
 
 @layer base {
 	body {
-		@apply bg-slate-800 font-main text-stone-300 px-6 max-w-7xl container mx-auto;
+		@apply bg-slate-800 font-main text-stone-300 px-6 max-w-7xl container mx-auto m-0 p-0;
 	}
 }

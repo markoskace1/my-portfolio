@@ -128,20 +128,20 @@
 	});
 </script>
 
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 justify-items-center">
+<div class="flex flex-wrap gap-12 justify-center">
 	{#each logos as logo}
 		<div
-			class="relative group flex items-center justify-evenly hover:bg-cyan-300/10 w-52 h-52 prose prose-img:m-0 tranisition duration-300 ease-in-out"
+			class="relative group flex items-center justify-center w-20 h-20 prose prose-img:m-0 tranisition duration-300 ease-in-out"
 		>
 			<img
 				src={logo.imgUrl}
 				alt={logo.alt}
 				width="96px"
 				height="96px"
-				class="group-hover:scale-125 opacity-30 group-hover:opacity-100 transition duration-300 ease-in-out aspect-square"
+				class="group-hover:scale-110 grayscale group-hover:grayscale-0 transition duration-300 ease-in-out aspect-square"
 			/>
 			<span
-				class="absolute group-hover:translate-y-20 uppercase text-slate-300 group-hover:tracking-widest font-semibold text-lg group-hover:block transition-all duration-300 ease-in-out"
+				class="absolute -bottom-8 opacity-0 text-center group-hover:opacity-100 uppercase text-slate-300 tracking-widest font-semibold text-lg transition-all duration-300 ease-in-out"
 				>{logo.name}</span
 			>
 		</div>

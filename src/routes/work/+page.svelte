@@ -327,7 +327,7 @@
 		<div class="flex flex-col px-3 lg:w-1/2">
 			<h2>Doughnuts website</h2>
 			<p>
-				I've found the design on Figma and really liked it. It' made in ReactJS and TailwindCSS.
+				I've found the design on Figma and really liked it. It's made in ReactJS and TailwindCSS.
 			</p>
 			<a href="https://markoskace1.github.io/doughnuts-react" target="_blank">Visit the site</a>
 		</div>
