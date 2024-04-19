@@ -162,8 +162,9 @@
 			<p>
 				I'm still building this portal for my friends and family to check their portfolios. The
 				authentication is working. Try it. <i class="text-slate-400"
-					>(username: marko, password: testing123)</i
-				>. This website is build in Sveltekit and TailwindCSS with Lucia Auth and Turso.
+					>(username: mitja@mitja.si, password: testing)</i
+				>. This website is build in Sveltekit and TailwindCSS. It was using Lucia Auth and Turso
+				database at first, but now I'm using Supabase.
 			</p>
 			<a href="https://bm-investments.netlify.app/" target="_blank">Visit the site</a>
 		</div>
