@@ -137,7 +137,7 @@
 				there's low demand for these kind of services in my country. It's a single page website
 				build in Svelte and TailwindCSS.
 			</p>
-			<a href="https://fotonepremicnine.si" target="_blank">Visit the site</a>
+			<a href="https://fotonepremicnine.netlify.app" target="_blank">Visit the site</a>
 		</div>
 	</div>
 
