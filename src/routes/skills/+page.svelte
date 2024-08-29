@@ -49,14 +49,16 @@
 		{/each}
 		<div class="flex items-center space-x-2 text-slate-400 py-2">
 			<Info size={16} />
-			<p class="text-sm md:text-base">Accuracy is &#177 0.4 stars</p>
+			<p class="text-sm md:text-base">Accuracy is &#177 0.4 stars &#128521;</p>
 		</div>
 	</div>
 
-	<div class="mb-6 prose prose-sm md:prose-base max-w-none prose-p:text-slate-300">
+	<div
+		class="mb-6 prose prose-sm md:prose-base max-w-none prose-p:text-slate-300 prose-p:text-center"
+	>
 		<p>
-			You'll notice there are no 5 stars and no 1 star skill. Well, I can't know everything and I
-			know enaugh to not know anything. &#129299
+			No 5 stars, because I don't know everything and no 1 star either, because even without
+			experience, I'm able to figure it out quickly.
 		</p>
 	</div>
 

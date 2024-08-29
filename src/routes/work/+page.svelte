@@ -112,7 +112,7 @@
 </script>
 
 <section
-	class="flex flex-col space-y-24 max-w-5xl pb-24 prose prose-sm md:prose-base prose-h2:text-slate-200 prose-h2:mt-0 lg:prose-h2:mt-12 prose-h2:tracking-wide prose-p:text-slate-300 prose-a:text-slate-400 prose-a:w-fit"
+	class="flex flex-col space-y-24 max-w-5xl pb-24 prose prose-sm md:prose-base prose-h2:text-slate-200 prose-h2:mt-0 lg:prose-h2:mt-12 prose-h2:tracking-wide prose-h3:text-slate-400 prose-p:text-slate-300 prose-a:text-slate-400 prose-a:w-fit"
 >
 	<!-- REAL ESTATE WEBSITE -->
 
@@ -132,10 +132,10 @@
 		</div>
 		<div class="flex flex-col px-3 lg:w-1/2">
 			<h2>Real estate photography website</h2>
+			<h3>Svelte | TailwindCSS</h3>
 			<p>
-				I've build this website for my photography business, but I'm planning to shut it down as
-				there's low demand for these kind of services in my country. It's a single page website
-				build in Svelte and TailwindCSS.
+				I've designed and build this website for my wife's real estate photography business. It's a
+				single page website build in Svelte and TailwindCSS.
 			</p>
 			<a href="https://fotonepremicnine.netlify.app" target="_blank">Visit the site</a>
 		</div>
@@ -159,12 +159,11 @@
 		</div>
 		<div class="flex flex-col px-3 lg:w-1/2">
 			<h2>Authentication app</h2>
+			<h3>Sveltekit | TailwindCSS | Supabase</h3>
 			<p>
-				I'm still building this portal for my friends and family to check their portfolios. The
-				authentication is working. Try it. <i class="text-slate-400"
-					>(username: mitja@mitja.si, password: testing)</i
-				>. This website is build in Sveltekit and TailwindCSS. It was using Lucia Auth and Turso
-				database at first, but now I'm using Supabase.
+				I'm still building this web portal for my friends and family to check their portfolios. This
+				website is designed by myself and build in Sveltekit and TailwindCSS. I was using Lucia Auth
+				and Turso database at first, but now I'm using Supabase.
 			</p>
 			<a href="https://bm-investments.netlify.app/" target="_blank">Visit the site</a>
 		</div>
@@ -190,10 +189,11 @@
 
 		<div class="flex flex-col px-3 lg:w-1/2">
 			<h2>Web development business</h2>
+			<h3>Sveltekit | TailwindCSS</h3>
 			<p>
 				Another project in the making. I'm still working on it. It's a website for my business
-				someday, selling web development services in my country. Again, build in Sveltekit and
-				TailwindCSS.
+				someday, selling web development services in my country. Again, designed by myself and build
+				in Sveltekit and TailwindCSS.
 			</p>
 			<a href="https://klikpanet.netlify.app" target="_blank">Visit the site</a>
 		</div>
@@ -218,11 +218,16 @@
 		</div>
 		<div class="flex flex-col px-3 lg:w-1/2">
 			<h2>Cars exhibition website</h2>
+			<h3>AstroJS | TailwindCSS</h3>
 			<p>
-				This was made for my client from Upwork. I had to build 4 pages for desktop screens only, so
-				don't open them on mobile, please. Pages are build in AstroJS.
+				This was made for my client from Upwork. I had to build 4 pages for desktop screens only.
+				Pages are build in AstroJS.
 			</p>
-			<a href="https://cars-messe-project.vercel.app/" target="_blank">Visit the site</a>
+
+			<a href="https://www.carsandbytes.de/" target="_blank">Visit the site</a>
+			<a href="https://cars-messe-project.vercel.app/" target="_blank"
+				>Visit the site (my work only)</a
+			>
 		</div>
 	</div>
 
@@ -245,6 +250,7 @@
 		</div>
 		<div class="flex flex-col px-3 lg:w-1/2">
 			<h2>Presentation website</h2>
+			<h3>ReactJS | TailwindCSS</h3>
 			<p>
 				A presentation made for a client from Upwork. It's made only for desktop screens and not for
 				smaller mobile screens. It's made in ReactJS and TailwindCSS.
@@ -272,10 +278,11 @@
 		</div>
 		<div class="flex flex-col px-3 lg:w-1/2">
 			<h2>Molecules database</h2>
+			<h3>ReactJS | TailwindCSS</h3>
 			<p>
-				An Upwork project I turned it down, because I didn't know if I could build it. But I build
-				it anyway. This is an app that fetches data from a large database of molecules and displays
-				its information. It's made in ReactJS and TailwindCSS.
+				An Upwork project I turned it down, because I didn't know if I could build it, but I build
+				it anyway just for a challenge. This is an app that fetches data from a large database of
+				molecules and displays its information. It's made in ReactJS and TailwindCSS.
 			</p>
 			<a href="https://drug-molecules.vercel.app" target="_blank">Visit the site</a>
 		</div>
@@ -300,9 +307,10 @@
 		</div>
 		<div class="flex flex-col px-3 lg:w-1/2">
 			<h2>Movies database</h2>
+			<h3>Svelte | TailwindCSS</h3>
 			<p>
-				Web app I made a while ago that fetches the movies from a database. Made in Svelte and
-				TailwindCSS.
+				Web app I made a while ago that fetches the movies from a database. Designed and made in
+				Svelte and TailwindCSS.
 			</p>
 			<a href="https://movies-app-markoskace1.vercel.app" target="_blank">Visit the site</a>
 		</div>
@@ -327,6 +335,7 @@
 		</div>
 		<div class="flex flex-col px-3 lg:w-1/2">
 			<h2>Doughnuts website</h2>
+			<h3>ReactJS | TailwindCSS</h3>
 			<p>
 				I've found the design on Figma and really liked it. It's made in ReactJS and TailwindCSS.
 			</p>

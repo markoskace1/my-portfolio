@@ -24,7 +24,7 @@
 
 			<p>
 				<strong>React, Svelte, Astro and TailwindCSS</strong> are the frameworks I'm most experenced
-				with.
+				with. I prefer working with Sveltekit and TailwindCSS is a must for me.
 			</p>
 
 			<p>
@@ -32,8 +32,11 @@
 				great passion for investing on financial markets.
 			</p>
 			<p>
-				I'm <strong>abitious, determined and creative</strong>.
+				I'm <strong>abitious, determined and creative</strong> and if you need someone like me in your
+				team, please contact me and test my skills.
 			</p>
+
+			<p>Kind regards!</p>
 		</div>
 	</div>
 </section>
