@@ -191,9 +191,8 @@
 			<h2>Web development business</h2>
 			<h3>Sveltekit | TailwindCSS</h3>
 			<p>
-				Another project in the making. I'm still working on it. It's a website for my business
-				someday, selling web development services in my country. Again, designed by myself and build
-				in Sveltekit and TailwindCSS.
+				Another project in the making. It's a website for a business offering web development
+				services in my country. Again, designed by myself and build in Sveltekit and TailwindCSS.
 			</p>
 			<a href="https://klikpanet.netlify.app" target="_blank">Visit the site</a>
 		</div>
@@ -220,8 +219,7 @@
 			<h2>Cars exhibition website</h2>
 			<h3>AstroJS | TailwindCSS</h3>
 			<p>
-				This was made for my client from Upwork. I had to build 4 pages for desktop screens only.
-				Pages are build in AstroJS.
+				This was made for my client from Upwork. I had to build 4 pages. Pages are build in AstroJS.
 			</p>
 
 			<a href="https://www.carsandbytes.de/" target="_blank">Visit the site</a>
@@ -280,8 +278,8 @@
 			<h2>Molecules database</h2>
 			<h3>ReactJS | TailwindCSS</h3>
 			<p>
-				An Upwork project I turned it down, because I didn't know if I could build it, but I build
-				it anyway just for a challenge. This is an app that fetches data from a large database of
+				An Upwork project I turned down, because I didn't know if I could build it, but I build it
+				anyway just for a challenge. This is an app that fetches data from a large database of
 				molecules and displays its information. It's made in ReactJS and TailwindCSS.
 			</p>
 			<a href="https://drug-molecules.vercel.app" target="_blank">Visit the site</a>
